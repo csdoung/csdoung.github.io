@@ -1,0 +1,43 @@
+.content {
+	width: 720px;
+	padding: 54px;
+	border-left: 6px solid #dddddd;
+	
+	font-family: 'Lato', sans-serif;
+	color: #444444;
+	line-height: 1.5;
+}
+.photo{
+	width: 720px;
+}
+ul{
+	padding: 0;
+}
+h1 {
+	padding: 0;
+	font-size: 30px;
+	color: #dd0000;
+}
+
+li {
+	display: inline;
+	padding-left: 10px;
+	color: #dddddd;
+}
+
+date{
+	color: #cccccc;
+	font-size: 30px;
+	font-weight: thin;
+}
+article{
+	border-bottom: 1px solid #dddddd;
+	width: 775px;
+	padding-bottom: 20px;
+}
+
+.continues {
+	color: red;
+	font-weight: bold;
+	text-align: right;
+}
