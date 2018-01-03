@@ -8,6 +8,7 @@ font-family: 'Source Sans Pro', sans-serif;
 */
 
 h1 {
+	margin: 0;
 	display: inline-block;
 	color: yellow;
 	padding: 10px;
@@ -16,16 +17,19 @@ h1 {
 
 .nav {
 	display: inline;
-	text-decoration: none;
 	float: right;
-	color: white;
 	font-family: Source Sans Pro;
 	padding: 20px;
 }
 
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+
 header {
-background: black;
-border-bottom: yellow solid 3px;
+	background: black;
+	border-bottom: yellow solid 3px;
 }
 
 h2 {
@@ -34,6 +38,7 @@ h2 {
 	text-align: center;
 	font-size: 20px;
 	height: 30px;
+	margin: 0;
 }
 
 h3 {
@@ -41,30 +46,46 @@ h3 {
 
 }
 p{
-font-family: "Source Sans Pro"
+	font-family: "Source Sans Pro"
 }
 
-.photo {
-	background-image: url(coworking.jpg);
-	width: 100%
+.background_image {
+	background-image: url("../img/coworking.jpg");
+	background-repeat: no-repeat;
+	height: 600px;
+	background-size: 100%;
+	background-position: center;
 }
 .match {
 	float: right;
 	background: white;
 	padding: 10px;
-}
-button {
-font-family: Oswald;
-background: #C6C6C6
-border: none;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-}
-article {
-	display: flex row ;
-	flex-basis: auto;
-	width: 30%;
+	width: 300px;
+	margin: 30px;
 }
 
+button {
+	font-family: Oswald;
+	background: #C6C6C6;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.panels {
+	display: flex;
+	flex-basis: auto;
+	padding: 0 20px;
+}
+
+article {
+	padding: 20 40px;
+}
+
+footer {
+	margin: 0;
+}
 
