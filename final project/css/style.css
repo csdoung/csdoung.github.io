@@ -1,0 +1,67 @@
+ .nav{
+ margin: 0 auto;
+display: flex;
+clear: both;
+justify-content: space-around;	
+padding: 40px;
+ }
+
+ #name{
+font-family: 'Oswald', sans-serif;
+ 	font-size: 36px;
+ 
+ }
+
+.image1 { 
+margin: 0 auto;
+display: table;
+clear: both;
+ }
+
+#golf {
+	width: 269px;
+	height: 274px;
+	padding: 8px;
+}
+#wine{
+	width: 269px;
+	height: 206px;
+	padding: 8px;
+}
+#football{
+	width: 132px;
+	height: 206px;
+	padding: 8px;
+}
+#proam{
+	width: 132px;
+	padding: 8px;
+}
+
+.image2 { 
+margin: 0 auto;
+display: table;
+clear: both;
+ }
+
+#chocolate {
+	width: 219px;
+	height: 145px;
+	padding: 8px;
+}
+
+#saffiano{
+	width: 132px;
+	padding: 8px;
+}
+
+#invite {
+	width: 269px;
+	padding: 8px;
+}
+
+#logo {
+	width: 132px;
+	padding: 8px;
+	align-self: bottom;
+}
